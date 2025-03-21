@@ -71,6 +71,9 @@ function validarFormulario() {
     if (!validarNombre()) esValido = false;
     if (!validarEmail()) esValido = false;
     if (!contraseñaPuesta()) esValido = false;
+    if (esValido == true) {
+        alert("Registro exitoso.");
+    }
     return esValido;
 }
 
